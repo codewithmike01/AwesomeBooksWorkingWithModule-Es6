@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Book Refactor</title>
+  </head>
+  <body>
+    <nav>
+      <div class="inner__nav">
+        <h3>Awesome Books</h3>
+
+        <div class="list">
+          <div class="list__item active">List</div>
+          <div class="add__item">Add book</div>
+          <div class="contact__item">Contact</div>
+        </div>
+      </div>
+    </nav>
+    <section class="date">
+      <p id="date"></p>
+    </section>
+
+    <main class="all__book">
+      <h1>All Awesome books</h1>
+      <div id="book__items">
+        <!-- Dynamic Content -->
+        <div id="book__container">
+          <!-- each book dynamic content -->
+        </div>
+      </div>
+    </main>
+
+    <section class="main__form hide__content">
+      <h2>Add a new book</h2>
+      <form id="form__one">
+        <input
+          type="text"
+          name="title"
+          placeholder="Title"
+          id="input__title"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          name="author"
+          placeholder="Author"
+          id="input__author"
+          required
+        />
+        <br /><br />
+        <button type="submit" id="add__button">Add</button>
+      </form>
+    </section>
+
+    <section class="contact hide__content">
+      <h1>Contact information</h1>
+
+      <div class="contact__info">
+        <p>
+          Do have any questions or you just want to say "hello" ? <br />
+          You can reach out to us
+        </p>
+        <ul>
+          <li>Our e-mail mail@mail.com</li>
+          <li>Our phone number: 004386534422</li>
+          <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div>Copyright</div>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

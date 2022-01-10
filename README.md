@@ -2,8 +2,6 @@
 
 This is a project as Mandated by Microverse, to create a javascript Web app using Es6 features and modules, that adds and removes book base on user interaction
 
-# hello-microverse
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 Additional description about the project and its features.
@@ -18,10 +16,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-clone repo: `https://github.com/Ginohmk/Awesome-book.git`
+clone repo: `https://github.com/Ginohmk/AwesomeBooksWorkingWithModule-Es6.git`
 
 then
-`cd Awesome-book`
+`cd wesomeBooksWorkingWithModule-Es6`
 
 ### Install
 
