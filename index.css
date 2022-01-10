@@ -147,7 +147,11 @@ footer {
 }
 
 .date {
+  width: 100%;
+  text-align: right;
+  margin: 0 auto;
   margin-bottom: 40px;
+  margin-top: -30px;
   font-size: 0.8em;
 }
 
